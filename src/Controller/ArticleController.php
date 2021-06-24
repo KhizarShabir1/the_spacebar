@@ -19,7 +19,7 @@ class ArticleController
 
     /**
      * @Route("/news/{slug}")
-     */s
+     */
     public function show($slug)
     {
         return new Response(sprintf("Future page to show the article: %s",
